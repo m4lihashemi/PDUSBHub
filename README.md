@@ -23,11 +23,11 @@ The USB hub section is based on the CH634W6G controller and provides the upstrea
 - Multi-layer GND pours and stitching
 - Dedicated power routing for high-current paths
 ### Top View
-<img src="images/Top_2D.png" width="700">
-<img src="images/Top_3D.png" width="700">
+<img src="images/Top_2D.PNG" width="700">
+<img src="images/Top_3D.PNG" width="700">
 ### Bottom View
-<img src="images/Bot_2D.png" width="700">
-<img src="images/Bot_3D.png" width="700">
+<img src="images/Bot_2D.PNG" width="700">
+<img src="images/Bot_3D.PNG" width="700">
 
 
 The design uses a dedicated USB-C PD input for the main power path. After PD negotiation, the high-voltage rail is routed through MOSFET-based power switching and then supplied to the buck converter. The buck converter generates the 5V system rail used by the USB hub controller and downstream power circuitry.
