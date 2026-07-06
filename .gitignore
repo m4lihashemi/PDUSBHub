@@ -1,0 +1,148 @@
+# Altium Designer project ignore file
+# Keep source design files tracked:
+#   *.PrjPcb
+#   *.SchDoc
+#   *.PcbDoc
+#   *.OutJob
+#   *.PrjPcbStructure
+#   *.BomDoc
+#   *.LibPkg
+#   *.SchLib
+#   *.PcbLib
+
+# -----------------------------
+# Altium generated output folders
+# -----------------------------
+Project Outputs*/
+Project Logs*/
+History*/
+__Previews*/
+Generated*/
+Outputs*/
+Output*/
+Release*/
+Releases*/
+Fabrication*/
+Assembly*/
+Gerber*/
+Gerbers*/
+NC Drill*/
+ODB*/
+ODB++*/
+Pick Place*/
+BOM*/
+Reports*/
+CAMtastic!*/
+
+# -----------------------------
+# Altium temporary / backup files
+# -----------------------------
+*.SchDocPreview
+*.PcbDocPreview
+*.PrjPcbPreview
+*.SchDoc.htm
+*.PcbDoc.htm
+*.log
+*.LOG
+*.err
+*.ERR
+*.rep
+*.REP
+*.rpt
+*.RPT
+*.bak
+*.BAK
+*.~*
+*.$$$
+~$*
+*.tmp
+*.temp
+
+# Altium lock / workspace local files
+*.lock
+*.lck
+*.DsnWrk
+*.DsnWrk~
+*.workspace
+
+# -----------------------------
+# Generated manufacturing files
+# Uncomment these if you want Git to ignore generated fab files.
+# If you prefer versioning released fab packages, keep them tracked in /Release.
+# -----------------------------
+*.gbr
+*.GBR
+*.ger
+*.GER
+*.gtl
+*.gbl
+*.gts
+*.gbs
+*.gto
+*.gbo
+*.gko
+*.gm1
+*.gm2
+*.drl
+*.DRL
+*.xln
+*.XLN
+*.cam
+*.Cam
+*.ipc
+*.IPC
+*.tgz
+*.zip
+*.rar
+*.7z
+
+# Pick and place / BOM generated files
+*.csv
+*.CSV
+*.xlsx
+*.XLSX
+*.xls
+*.XLS
+*.xml
+*.XML
+
+# -----------------------------
+# Simulation / analysis generated files
+# -----------------------------
+*.sdf
+*.nsx
+*.sfo
+*.wvf
+*.dat
+*.raw
+*.sim
+
+# -----------------------------
+# Windows / macOS system files
+# -----------------------------
+Thumbs.db
+Desktop.ini
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# -----------------------------
+# Editor / IDE folders
+# -----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -----------------------------
+# Optional: local screenshots / videos
+# Remove this section if you want to keep screenshots in Git.
+# -----------------------------
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.webp
+*.mp4
+*.mov
