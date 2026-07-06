@@ -138,7 +138,7 @@ Desktop.ini
 # Optional: local screenshots / videos
 # Remove this section if you want to keep screenshots in Git.
 # -----------------------------
-*.png
+
 *.jpg
 *.jpeg
 *.gif
